@@ -1,0 +1,43 @@
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 编辑器/IDE 配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 常见编程语言构建/依赖目录 (根据需要取消注释)
+# Node.js
+# node_modules/
+# npm-debug.log
+# yarn-error.log
+
+# Python
+# __pycache__/
+# *.py[cod]
+# venv/
+# .env
+
+# Java
+# *.class
+# target/
+# .gradle/
+# build/
+
+# C/C++
+# *.o
+# *.exe
+# *.dll
+# *.so
+# *.dylib
+# bin/
+# obj/
+
+# 临时文件和日志
+*.log
+tmp/
+temp/
