@@ -52,6 +52,19 @@ Git 的杀手级功能。
 
 ## 4. GitHub 远程仓库交互
 
+### 4.0 在 GitHub 上创建新仓库 (Web 操作)
+1.  登录 GitHub (https://github.com)。
+2.  点击右上角的 **+** 号，选择 **New repository**。
+3.  填写仓库信息：
+    - **Repository name**: 仓库名称 (必填，如 `my-project`)。
+    - **Description**: 描述 (选填)。
+    - **Public/Private**: 选择公开或私有。
+    - **Initialize this repository with**:
+        - 如果你本地已经有代码（如当前情况），**不要**勾选 "Add a README file"、".gitignore" 或 "license"。这样 GitHub 会给你一个干净的空仓库，方便直接推送本地代码。
+        - 如果是从零开始的新项目，可以勾选 "Add a README file"。
+4.  点击 **Create repository** 按钮。
+5.  创建成功后，GitHub 会显示一个页面，提供 "Quick setup" 的命令，这就是你接下来要用的远程仓库地址 (HTTPS 或 SSH)。
+
 ### 4.1 关联远程仓库
 假设你在 GitHub 上新建了一个空仓库。
 - **添加远程地址**: `git remote add origin <github-repo-url>`
